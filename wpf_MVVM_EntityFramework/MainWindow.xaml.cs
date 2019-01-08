@@ -82,15 +82,15 @@ namespace wpf_MVVM_EntityFramework
             //    d.Drop_Id++;
             //}
 
-            bool flag = true;
+            //bool flag = true;
           
-            while (flag)
-                {
+            //while (flag)
+            //    {
 
-                flag = bl.RemoveDrop(d.Drop_Id);
-                d.Drop_Id++;
+            //    flag = bl.RemoveDrop(d.Drop_Id);
+            //    d.Drop_Id++;
                 
-                }
+            //    }
 
             #endregion
             InitializeComponent();
